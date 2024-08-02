@@ -1,0 +1,16 @@
+streamlit
+altair
+scikit-learn
+pandas
+numpy
+plotly
+matplotlib
+seaborn
+IPython
+tqdm
+alpha_vantage
+xgboost
+yfinance
+lxml
+tensorflow
+prophet
