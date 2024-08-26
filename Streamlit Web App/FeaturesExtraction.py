@@ -11,7 +11,7 @@ from functools import reduce
 T = TypeVar('T')
 
 
-os.chdir(r'.\Streamlit Web App\Stock Data')
+# os.chdir(r'.\Streamlit Web App\Stock Data')
 
 
 class Stocks:
@@ -221,7 +221,7 @@ class Stocks:
 
         
     def save_features(self, Ticker):
-        print('Saving extracted features data in S3 Bucket....')
+        print('Saving extracted features data in ')
         self.Stock.to_csv(self.Ticker + '.csv')
         print('Extracted features shape - '+ str(self.Stock.shape))
         print(' ')
@@ -257,7 +257,7 @@ class Stocks:
         
 
 
-# features = Stocks('GS', '2004-01-02', 1)
+# features = Stocks('HPQ', '2004-01-02', 1)
 # features.pipeline_sequence()
 
 
